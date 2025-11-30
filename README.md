@@ -83,59 +83,6 @@ matplotlib>=3.4.0
 missingno>=0.5.0
 ```
 
-### Install Dependencies
-
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn nltk matplotlib missingno
-```
-
-### Download NLTK Data
-
-```python
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-```
-
-## 💻 Usage
-
-### Running the Notebook
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-```
-
-2. Launch Jupyter Notebook:
-```bash
-jupyter notebook Twitter_Sentiment_Analysis.ipynb
-```
-
-3. Or open directly in Google Colab using the badge above
-
-### Quick Start Example
-
-```python
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-
-# Load data
-df_train = pd.read_csv('data/train.csv')
-
-# Preprocess and train (simplified example)
-vectorizer = TfidfVectorizer(max_features=5000)
-X_train = vectorizer.fit_transform(df_train['clean_tweet'])
-y_train = df_train['label']
-
-# Train model
-model = LogisticRegression()
-model.fit(X_train, y_train)
-
-# Predict
-predictions = model.predict(X_test)
-```
 
 ## 📁 Project Structure
 
@@ -194,15 +141,6 @@ Twitter_Sentiment_Analysis/
 - Jupyter Notebook
 - Google Colab (optional)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
