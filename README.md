@@ -35,6 +35,18 @@ Each tweet is labeled as:
 - Class 0 (Not hate speech): ~93.2%
 - Class 1 (Hate speech): ~6.8%
 
+### ⚖️ Handling Imbalanced Data
+
+This dataset is **highly imbalanced**, with approximately 93% of tweets labeled as non-hate speech and only 7% as hate speech. To address this significant class imbalance and prevent model bias toward the majority class, we implemented **RandomOverSampler** from the `imbalanced-learn` library.
+
+**Balancing Strategy:**
+- **Method**: RandomOverSampler
+- **Approach**: Oversamples the minority class (hate speech) by randomly duplicating samples
+- **Result**: Both classes have equal representation in the training set (27,517 samples each)
+- **Impact**: Prevents the model from being biased toward predicting only the majority class and improves recall for hate speech detection
+
+This balancing technique ensures that the model learns to recognize both classes effectively, leading to better overall performance and more reliable hate speech detection.
+
 ## ✨ Features
 
 ### Data Preprocessing
