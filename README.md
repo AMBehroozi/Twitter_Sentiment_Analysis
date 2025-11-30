@@ -167,24 +167,9 @@ Twitter_Sentiment_Analysis/
 - **Type**: Probabilistic classifier
 - **Best for**: Text classification tasks
 
-## 📈 Results
-
-### Model Performance (Evaluation Set)
-
-**Logistic Regression:**
-- Accuracy: 94.9%
-- Precision (Class 0): 0.97
-- Recall (Class 0): 0.93
-- F1-Score (Class 0): 0.95
-- Precision (Class 1): 0.93
-- Recall (Class 1): 0.97
-- F1-Score (Class 1): 0.95
-
-### Confusion Matrix
-```
-[[5111  393]
- [ 164 5339]]
-```
+### 4. Random Forest
+- **Type**: Ensemble learning method
+- **Best for**: Text classification tasks
 
 ### Key Insights
 - The model performs well on both classes despite initial class imbalance
