@@ -225,8 +225,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Abdolmehdi Behroozi**
+- GitHub: [@AMBehroozi](https://github.com/AMBehroozi)
+- Email : behroozi.fx@gmail.com  
 
 ## 🙏 Acknowledgments
 
@@ -234,6 +235,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - Inspired by various NLP and sentiment analysis research papers
 - Thanks to the scikit-learn and NLTK communities
 
----
-
-**Note**: Remember to replace `YOUR_USERNAME` and `YOUR_REPO` with your actual GitHub username and repository name in the Colab badge and links.
